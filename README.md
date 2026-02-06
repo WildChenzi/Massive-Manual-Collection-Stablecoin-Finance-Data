@@ -1,0 +1,3 @@
+global_liquidity.py​ — This script can manually calculate Bloomberg's Global Liquidity Index (CB + M2) since I haven’t purchased that data on Bloomberg.
+run_usdt.R​ — Loads data and runs an IV regression with the deviation of USDT from $1 as the dependent variable, to see which variables are correlated with USDT price fluctuation.
+run_hourly_data.R​ — Loads manually downloaded 10‑minute USDT prices from Bloomberg, uses a three‑month rolling window to estimate USDT standard deviation, then computes the daily number of minutes exceeding 1, 2, and 3 standard deviations, to examine which factors increase the duration of USDT price deviation.
